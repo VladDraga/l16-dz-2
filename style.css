@@ -275,34 +275,36 @@ body {
     justify-content: space-between;
 }
 
-.photo-figure1::before{
+.figure:nth-child(1):before{
+    display: block;
+
+    background-color: #F5F4FA;
     content: url(./webstudiophoto/antenna\ 1.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
 }
 
-.photo-figure1{
-    padding: 25px 100px 50px 110px;
-}
-
-.photo-figure2::before{
+.figure:nth-child(2):before{
+    display: block;
+    background-color: #F5F4FA;
     content: url(./webstudiophoto/clock\ 1.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
 }
 
-.photo-figure2{
-    padding: 25px 100px 50px 110px;
-}
 
-.photo-figure3::before{
+.figure:nth-child(3):before{
+    display: block;
+    background-color: #F5F4FA;
     content: url(./webstudiophoto/diagram\ 1.png);
+    padding: 25px 110px;
+    margin-bottom: 25px;
 }
 
-.photo-figure3{
-    padding: 25px 100px 50px 110px;
-}
-
-.photo-figure4::before{
+.figure:nth-child(4):before{
+    display: block;
+    background-color: #F5F4FA;
     content: url(./webstudiophoto/astronaut\ 1.png);
-}
-
-.photo-figure4{
-    padding: 25px 100px 50px 110px;
+    padding: 25px 110px;
+    margin-bottom: 25px;
 }
